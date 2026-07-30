@@ -1,0 +1,11 @@
+# Obviously
+.bundle
+secret
+
+# We should not be tracking directories which can be generated
+cache/
+dump/
+log/
+tmp/
+vendor/
+webs/
