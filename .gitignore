@@ -9,3 +9,6 @@ log/
 tmp/
 vendor/
 webs/
+
+# Tracking the binary database file is pointless
+db/production.db.sqlite3

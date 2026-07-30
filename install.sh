@@ -5,5 +5,7 @@ mkdir -p app/apis/ components/ dump/fixtures/ lib/native/linux-x86 storage/ log/
 touch log/production.log
 touch tmp/restart.txt
 
+cp db/production.db.sqlite3.default db/production.db.sqlite3
+
 bundle config set path 'vendor/bundle'
 bundle install
